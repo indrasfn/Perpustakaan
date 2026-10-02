@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Perpustakaan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perpustakaan</title>
 </head>
 <body>
-  <!-- header -->
-  <header class="header">
-    <div class="header-konten">
-      <h1 class="header-judul">E-Perpustakaan</h1>
-      <p class="header-tagline">Perpustakaan Digital</p>
-    </div>
-  </header>
-  
-  <script src="app.js"></script>
+    <!-- header -->
+    <header class="header">
+        <div class="header-konten">
+        <h1 class="header-judul">E-Perpustakaan</h1>
+        <p class="header-tagline">Perpustakaan Digital</p>
+        </div>
+    </header>
+
+    <!-- konten utama (main) -->
+    <main class="main">
+        
+    <!-- koleksi buku -->
+     <section class="buku">
+        <h2 class="judul">Koleksi Buku</h2>
+        <div id="kontainer-buku">
+            <!-- dirender dari javascript -->
+        </div>
+     </section>
+
+     <!-- ringkasan koleksi -->
+      <section class="ringkasan">
+        <h2 class="judul">Ringkasan Koleksi
+        <div id="kontainer-ringkasan">
+            <!-- dirender dari javascript -->
+        </div>
+        </h2>
+      </section>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
